@@ -1,0 +1,10 @@
+{
+    "temperature": 20,
+    "humidity": 60,
+    "windSpeed": 10,
+    "windDirection": "NW",
+    "precipitation": 0,
+    "conditions": "Partly Cloudy"
+}
+
+
