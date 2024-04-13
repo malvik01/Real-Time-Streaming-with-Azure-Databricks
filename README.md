@@ -2,27 +2,12 @@
 
 ## Project Overview
 ### Objective: 
-Learn to build a data engineering pipeline utilizing Microsoft Fabric’s Data Factory, Data Engineering, and Power BI functionalities.
+Learn to build a data engineering pipeline ingesting Earthquake events data from [usgs](https://earthquake.usgs.gov/) utilising Microsoft Fabric’s Data Factory, Data Engineering, and Power BI functionalities.
 
-### Workflow:
-#### Data Ingestion
-Utilize Python’s requests library to fetch raw data from the USGS API.
-### Data Processing
-#### Bronze Layer
-Store raw data with minimal changes.
-#### Silver Layer
-Clean and transform data for improved accuracy.
-#### Gold Layer
-Refine data into business-ready datasets optimized for insights.
-#### Orchestration
-Use Data Factory to automate daily data processing across the three layers.
-### Reporting
-Develop a Power BI report to visualize worldwide earthquake data.
-
-###Technologies Used: Python, PySpark, Fabric (Data Engineering, Data Factory, Power BI)
+### Technologies Used: Python, PySpark, Fabric (Data Engineering, Data Factory, Power BI)
 
 ## Getting Started
-To get started with this project, clone the repository and follow the guidance provided in this YouTube tutorial.
+To get started with this project, downalod the notebooks in the repository and follow the guidance provided in the YouTube tutorial.
 
 ## Repository Contents
 - `Worldwide Earthquake Events API - Bronze Layer Processing`: This notebook focuses on ingesting raw earthquake data from the USGS API. It performs minimal processing to store data in its original format, serving as the foundational layer for further refinement.
